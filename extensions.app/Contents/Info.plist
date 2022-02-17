@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleAllowMixedLocalizations</key>
+	<true/>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleExecutable</key>
+	<string>extensions</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.ScriptEditor.id.Untitled-2</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Untitled 2</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleSignature</key>
+	<string>aplt</string>
+	<key>LSMinimumSystemVersionByArchitecture</key>
+	<dict>
+		<key>x86_64</key>
+		<string>10.6</string>
+	</dict>
+	<key>LSRequiresCarbon</key>
+	<true/>
+	<key>UTImportedTypeDeclarations</key>
+	<array>
+		<dict>
+			<key>UTTypeIdentifier</key><string>toy.a0</string>
+			<key>UTTypeTagSpecification</key><dict><key>public.filename-extension</key><array><string>toy-a0</string></array></dict>
+			<key>UTTypeConformsTo</key><array><string>public.plain-text</string></array>
+		</dict>
+		<dict>
+			<key>UTTypeIdentifier</key><string>toy.a1</string>
+			<key>UTTypeTagSpecification</key><dict><key>public.filename-extension</key><array><string>toy-a1</string></array></dict>
+			<key>UTTypeConformsTo</key><array><string>toy.a0</string></array>
+		</dict>
+		<dict>
+			<key>UTTypeIdentifier</key><string>toy.a2</string>
+			<key>UTTypeTagSpecification</key><dict><key>public.filename-extension</key><array><string>toy-a2</string></array></dict>
+			<key>UTTypeConformsTo</key><array><string>toy.a1</string></array>
+		</dict>
+		<dict>
+			<key>UTTypeIdentifier</key><string>toy.explicit</string>
+			<key>UTTypeTagSpecification</key><dict><key>public.filename-extension</key><array><string>toy-explicit</string></array></dict>
+			<key>UTTypeConformsTo</key><array><string>public.plain-text</string></array>
+		</dict>
+		<dict>
+			<key>UTTypeIdentifier</key><string>toy.l0</string>
+			<key>UTTypeTagSpecification</key><dict><key>public.filename-extension</key><array><string>toy-l0</string></array></dict>
+			<key>UTTypeConformsTo</key><array><string>public.data</string></array>
+		</dict>
+		<dict>
+			<key>UTTypeIdentifier</key><string>toy.l1</string>
+			<key>UTTypeTagSpecification</key><dict><key>public.filename-extension</key><array><string>toy-l1</string></array></dict>
+			<key>UTTypeConformsTo</key><array><string>toy.l0</string></array>
+		</dict>
+		<dict>
+			<key>UTTypeIdentifier</key><string>toy.l2</string>
+			<key>UTTypeTagSpecification</key><dict><key>public.filename-extension</key><array><string>toy-l2</string></array></dict>
+			<key>UTTypeConformsTo</key><array><string>toy.l1</string></array>
+		</dict>
+	</array>
+</dict>
+</plist>
